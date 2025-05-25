@@ -4,16 +4,16 @@
 // const { getUserById } = require('./js-foundation/03-callbacks');
 // const { getUserById } = require('./js-foundation/04-arrow');
 // const { getPokemonById } = require('./js-foundation/06-promises');
-import { getPokemonNameById } from './js-foundation/06-promises'
+// import { getPokemonNameById } from './js-foundation/06-promises'
 
 // const logger = buildLogger('app.js');
 // logger.log('Hola Mundo');
 // logger.error('Error Hola Mundo');
 
-getPokemonNameById(1)
-    .then((pokemon) => console.log({ pokemon }))
-    .catch((error) => console.error(error))
-    .finally(() => console.log('Finalmente'));
+// getPokemonNameById(1)
+//     .then((pokemon) => console.log({ pokemon }))
+//     .catch((error) => console.error(error))
+//     .finally(() => console.log('Finalmente'));
 
 // ! Referencia a la funcion factory y uso
 // const { buildMakePerson } = require('./js-foundation/05-factory');
