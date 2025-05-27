@@ -6,9 +6,15 @@ export const httpClient = {
         const { data } = await axios.get(url);
         return data;
     },
-    post: async (url: string , body: string) => { },
-    put: async (url: string, body: string) => { },
-    delete: async (url: string, body: string) => { }
+    post: async (url: string , body: string) => { 
+        throw new Error('Not implemented');
+    },
+    put: async (url: string, body: string) => { 
+        throw new Error('Not implemented');
+    },
+    delete: async (url: string, body: string) => { 
+        throw new Error('Not implemented');
+    }
 
     // get: async(url) => {
     //     const response =  await fetch(url);
